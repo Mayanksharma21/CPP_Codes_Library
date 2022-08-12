@@ -33,10 +33,10 @@ int main(){
     loc = lin_search(arr, target);
 
     if(loc == -1){
-        cout << target << " is not found." << endl;
+        cout << target << " is not found.";
     }
     else{
-        cout << target << " is found at index " << loc << endl;
+        cout << target << " is found at index " << loc;
     }
 
     return 0;
